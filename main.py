@@ -1,4 +1,4 @@
-from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
+tufrom pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
 import requests
 import json
 import subprocess
@@ -200,7 +200,7 @@ async def account_login(bot: Client, m: Message):
 
             except Exception as e:
                 await m.reply_text(
-                    f"**downloading failed 🅰🅸🆁 🅿🅷🅴🅾🅽🅸🆇™**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`"
+                    f"**downloading failed Ashvthama**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`"
                 )
                 continue
 
